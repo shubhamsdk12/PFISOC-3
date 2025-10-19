@@ -1,4 +1,4 @@
-# 🌍 AI-Driven ESG Intelligence Platform with Geo-Spatial Mapping
+# 🌍 AI-Driven ESG Intelligence Platform
 
 ## 🧩 Problem Statement
 
