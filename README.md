@@ -1,93 +1,159 @@
-# 🌍 AI-Driven ESG Intelligence Platform
+# 🌍 ESGTruth™: AI-Powered ESG Transparency & Scoring Platform
 
 ## 🧩 Problem Statement
 
-Current Environmental, Social, and Governance (ESG) rating systems rely on static reports and delayed data updates. They fail to capture **real-time ESG risks** and lack **geographical visibility** into where environmental or social issues occur. As a result, investors, regulators, and sustainability analysts struggle to obtain **dynamic, location-aware, and transparent ESG insights**.
+Environmental, Social, and Governance (ESG) scores are increasingly used to evaluate companies’ sustainability and ethical impact. However, current ESG data often lacks **transparency, consistency, and real-time accuracy**. Most existing ESG scores rely on self-reported data or static assessments, which may be outdated, incomplete, or even misleading.
+
+There is a pressing need for a system that can:
+
+* Aggregate ESG data from diverse, credible sources (news, reports, NGOs, filings, etc.)
+* Detect contradictions between what companies *claim* and what *evidence* supports
+* Provide **real-time**, explainable, and transparent ESG insights for investors, regulators, and the public.
 
 ---
 
-## 💡 Proposed Solution
+## 💡 Our Solution
 
-We propose an **AI-driven ESG Intelligence Platform** that leverages **Natural Language Processing (NLP)**, **Machine Learning (ML)**, and **Geo-Spatial Visualization** to deliver live, explainable ESG insights.
-
-### 🔧 Core Features
-
-1. **Real-Time Data Collection:**
-
-   * Integrate APIs (Google News, GDELT, NewsCatcher, Reddit, etc.) to retrieve ESG-related data and articles.
-
-2. **AI-Powered ESG Classification:**
-
-   * Use NLP models to classify news into **Environmental**, **Social**, or **Governance** categories.
-   * Perform **sentiment analysis** to determine positive, negative, or neutral ESG impacts.
-
-3. **Predictive ESG Analytics:**
-
-   * Implement ML algorithms (e.g., LSTM, Prophet) to **forecast future ESG trends** and identify potential risk areas.
-   * Predict how a company’s ESG score may change over time.
-
-4. **Geo-Spatial Mapping:**
-
-   * Visualize ESG incidents and trends on an **interactive map** using Leaflet or Mapbox.
-   * Create **heatmaps** to show regions with high ESG risks or positive sustainability activity.
-
-5. **Explainable AI (XAI):**
-
-   * Use SHAP or LIME to make AI decisions **transparent** and **interpretable**.
-   * Allow users to see **why** a particular ESG score increased or decreased.
-
-6. **Interactive Dashboard:**
-
-   * Display ESG scores, sentiment graphs, company profiles, and geo-based trends.
-   * Enable filters for time, geography, and company comparisons.
+**ESGTruth™** is an AI-powered platform that automates the collection, validation, and interpretation of ESG information in real-time.
+It combines **Natural Language Processing (NLP)**, **Knowledge Graphs**, and **Explainable AI** to generate a dynamic **Truth Consistency Index (TCI)** and visualize ESG data through an interactive dashboard and map.
 
 ---
 
-## ⚙️ System Requirements
+## 🚀 Key Features
 
-### **Functional Requirements**
+### 1. **Multi-Source ESG Data Aggregation**
 
-* **Data Integration:**
-  APIs for news, social media, and sustainability reports.
-* **Processing Layer:**
-  NLP and sentiment analysis pipeline for ESG tagging.
-* **Analytics Engine:**
-  Predictive modeling and score computation.
-* **Visualization:**
-  Geo-spatial dashboard for regional insights.
-* **Explainability:**
-  SHAP/LIME-based transparency reports.
+* Ingests data from sustainability reports, verified news APIs, and NGO publications.
+* Uses web scraping and API-based retrieval for real-time ESG-related updates.
+* Accepts uploaded company reports in PDF or DOCX formats and automatically extracts ESG metrics.
 
-### **Non-Functional Requirements**
+### 2. **AI-Powered Claim Detection & Validation**
 
-* **Scalability:** Handle high data volume efficiently.
-* **Transparency:** Open and explainable scoring methodology.
-* **Security:** Protect API keys and sensitive data.
-* **Usability:** Intuitive user interface for both technical and non-technical users.
+* NLP models identify ESG-related claims (e.g., “We reduced emissions by 40%”).
+* Cross-verifies these claims against evidence from trusted third-party sources.
+* Detects contradictions and generates a credibility score for each claim.
+
+### 3. **ESG Intelligence Graph**
+
+* Constructs a Knowledge Graph linking companies, metrics, sources, and verification results.
+* Displays how claims connect to supporting or contradicting evidence.
+* Helps visualize corporate relationships and dependencies.
+
+### 4. **Truth Consistency Index (TCI)**
+
+* A quantitative score (0–100) that measures how consistent a company’s public claims are with verified evidence.
+* Incorporates Environmental, Social, and Governance sub-scores.
+* Uses Bayesian or weighted models to adjust scores based on source credibility.
+
+### 5. **Interactive Dashboard & Map Visualization**
+
+* Displays company ESG scores and their geographic distribution.
+* Shows heatmaps of ESG risks (e.g., pollution zones, labor violations, governance scandals).
+* Provides time-series trends and region-wise ESG comparisons.
+
+### 6. **GenAI Explainability Agent**
+
+* Generates short, human-readable summaries explaining why a company’s claim was supported or contradicted.
+* Highlights evidence and provides confidence levels for each conclusion.
+* Enables transparency and traceability for every ESG score generated.
+
+### 7. **Scenario & Risk Simulator**
+
+* Allows users to simulate events (e.g., oil spill, layoffs, regulation changes) and observe predicted impacts on ESG scores.
+* Helps investors and policymakers assess future risk exposure.
+
+### 8. **APIs & Alerts**
+
+* Provides REST APIs for accessing ESG and TCI scores programmatically.
+* Sends alerts when a company’s ESG credibility significantly changes.
 
 ---
 
-## 🌱 Expected Outcomes
+## 🛠️ Technical Architecture
 
-* **Dynamic ESG Scoring:** Automatically updated ESG insights based on real-time global data.
-* **Predictive Risk Detection:** Early warnings for emerging ESG controversies or sustainability improvements.
-* **Transparency & Trust:** Explainable AI ensures accountability in ESG evaluations.
-* **Geo-Intelligence:** Location-based mapping of ESG activities for better policy and investment decisions.
-
----
-
-## 🚀 Future Enhancements
-
-* Integrate **IoT data** (e.g., carbon emissions, water sensors) for live environmental tracking.
-* Implement a **blockchain-based audit layer** for data integrity.
-* Develop a **recommendation engine** suggesting sustainability improvements.
-* Enable **mobile-friendly dashboards** for ESG monitoring on the go.
+| Layer                             | Function                                           | Tools & Technologies                               |
+| --------------------------------- | -------------------------------------------------- | -------------------------------------------------- |
+| **Data Ingestion**                | Collect ESG data from APIs, PDFs, news, and NGOs   | Python, FastAPI, NewsAPI, Scrapy                   |
+| **Preprocessing & Normalization** | Clean, structure, and standardize text and metrics | Pandas, spaCy, Regex                               |
+| **NLP & Claim Extraction**        | Detect claims, entities, and numeric ESG metrics   | BERT / RoBERTa, Transformers, spaCy                |
+| **Knowledge Graph**               | Connect claims, sources, and evidence              | Neo4j / NetworkX                                   |
+| **Verification Engine**           | Match claims with evidence and compute credibility | Sentence-BERT, Cosine Similarity, Bayesian Scoring |
+| **Explainability Layer**          | Generate AI-based summaries and insights           | OpenAI / LLaMA / Gemini APIs                       |
+| **Visualization Layer**           | Show dashboard, ESG map, and reports               | React / Streamlit / Plotly / Mapbox                |
+| **Storage Layer**                 | Store structured data and score history            | PostgreSQL, JSON, Graph DB                         |
+| **API Layer**                     | Provide data access and alerts                     | FastAPI, JWT Security                              |
 
 ---
 
-## 🧠 Summary
+## 📊 ESG Score Calculation
 
-This project transforms ESG evaluation from a static rating system into a **live, intelligent, and location-aware sustainability monitoring tool**.
-By merging **AI-driven prediction**, **explainable scoring**, and **geo-spatial visualization**, it provides a **transparent, data-driven approach** to sustainable decision-making.
+Each company’s ESG score and **Truth Consistency Index (TCI)** are derived using:
+[
+TCI = \sum_{i=1}^{n} (w_i × C_i)
+]
+Where:
+
+* ( w_i ) = Weight assigned to each data source (based on credibility)
+* ( C_i ) = Confidence of consistency between claim and evidence
+
+Environmental, Social, and Governance sub-scores are calculated separately and then combined into the final TCI.
 
 ---
+
+## 📌 Requirements (Feature-Wise Summary)
+
+| Feature                 | Requirements                                                         |
+| ----------------------- | -------------------------------------------------------------------- |
+| **Data Ingestion**      | APIs for news, NGO reports, PDF parsing, real-time data feed         |
+| **NLP Layer**           | ESG-specific keyword recognition, entity extraction, claim detection |
+| **Knowledge Graph**     | Nodes for companies, claims, sources, and relationships              |
+| **Verification Engine** | Semantic similarity models, contradiction detection logic            |
+| **Explainability**      | LLM integration, evidence-based summaries                            |
+| **Visualization**       | Map + Dashboard (scores, heatmaps, trends)                           |
+| **Scenario Simulation** | Predictive scoring model for hypothetical ESG events                 |
+| **API & Alerts**        | REST endpoints, webhook notifications, user authentication           |
+
+---
+
+## 🧠 Innovation Highlights
+
+* **Transparency through Explainable AI** — not just a score, but *why* that score exists.
+* **ESG Intelligence Graph** — visual web of truth connecting companies, claims, and data.
+* **Geo-AI Layer** — map-based ESG event visualization.
+* **Scenario Simulation** — predictive modeling for future ESG outcomes.
+* **Hybrid Data Verification** — combines structured reports with unstructured media content.
+
+---
+
+## 🌱 Potential Impact
+
+* Promotes **trust and accountability** in ESG disclosures.
+* Helps **investors** and **regulators** detect misinformation or greenwashing.
+* Encourages **corporate transparency** and data-driven sustainability practices.
+
+---
+
+## 📦 Future Enhancements
+
+* Integration with blockchain for data provenance and auditability.
+* Real-time ESG anomaly detection via AI drift models.
+* Mobile app for on-the-go ESG risk tracking.
+
+---
+
+## 👥 Team & Roles
+
+* **AI & NLP Developers:** Claim detection, model fine-tuning
+* **Backend Engineers:** Data pipelines, APIs, graph database
+* **Frontend Developers:** Dashboard & map visualization
+* **Data Analysts:** ESG metric calibration and validation
+* **UX/UI Designers:** User flow and visualization experience
+
+---
+
+## 🏁 Summary
+
+**ESGTruth™** redefines ESG transparency by merging AI-driven claim verification, knowledge graphs, and explainable intelligence.
+It not only scores companies — it **tells the story** behind those scores.
+
+> “From claims to truth — powering responsible investing through AI transparency.”
