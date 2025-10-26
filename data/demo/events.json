@@ -1,0 +1,123 @@
+[
+  {
+    "event_id": "infosys_ev_2025_06_04_pr",
+    "company_id": "infosys",
+    "timestamp": "2025-06-04T10:00:00Z",
+    "type": "press",
+    "source": "Infosys press release: ESG Vision 2030",
+    "snippet_text": "Infosys outlines a bolder ESG Vision 2030; aspires to become climate positive in 2030, expands global skilling and livelihood commitments.",
+    "provenance": "https://www.infosys.com/newsroom/press-releases.html"
+  },
+  {
+    "event_id": "infosys_ev_2024_05_31_report",
+    "company_id": "infosys",
+    "timestamp": "2024-05-31T00:00:00Z",
+    "type": "report",
+    "source": "Infosys ESG report 2023-24",
+    "snippet_text": "We achieved a 12% reduction in Scope 1 emissions in FY2023 vs FY2020 baseline, driven by renewables and energy efficiency projects.",
+    "provenance": "https://www.infosys.com/sustainability/documents/infosys-esg-report-2023-24.pdf"
+  },
+  {
+    "event_id": "infosys_ev_2025_05_pr_award",
+    "company_id": "infosys",
+    "timestamp": "2025-05-08T09:30:00Z",
+    "type": "press",
+    "source": "Infosys + Economist Impact partnership (Sustainability Atlas)",
+    "snippet_text": "Infosys partners with Economist Impact to launch Sustainability Atlas — an AI tool for sustainability insights.",
+    "provenance": "https://www.prnewswire.com/news-releases/economist-impact-and-infosys-launch-the-sustainability-atlas-302449909.html"
+  },
+
+  {
+    "event_id": "tatapower_ev_2024_11_brsr",
+    "company_id": "tatapower",
+    "timestamp": "2024-11-01T00:00:00Z",
+    "type": "report",
+    "source": "Tata Power Business Responsibility & Sustainability Report 2023-24",
+    "snippet_text": "Tata Power discloses renewables capacity and remediation programs; BRSR shows renewable portfolio growth but continued legacy thermal capacity disclosures.",
+    "provenance": "https://www.tatapower.com/sustainability/business-responsibility-report/business-responsibility-and-sustainability-report-2023-24.pdf"
+  },
+  {
+    "event_id": "tatapower_ev_2025_10_media",
+    "company_id": "tatapower",
+    "timestamp": "2025-10-02T08:00:00Z",
+    "type": "press",
+    "source": "Tata Power media release (renewables PPA announcement)",
+    "snippet_text": "Tata Power Renewables signs a PPA for a dispatchable renewable energy project to provide firm capacity and reduce CO2 emissions upon commissioning.",
+    "provenance": "https://www.tatapower.com/news-and-media/media-releases"
+  },
+  {
+    "event_id": "tatapower_ev_2025_07_operational",
+    "company_id": "tatapower",
+    "timestamp": "2025-07-15T00:00:00Z",
+    "type": "news",
+    "source": "Industry article on project delays (example - grid constraints)",
+    "snippet_text": "Several renewable projects face grid/transmission constraints and slow PPAs in regions of India, which may delay expected commissioning dates.",
+    "provenance": "https://www.pv-tech.org/" 
+  },
+
+  {
+    "event_id": "coalindia_ev_2024_10_investigation",
+    "company_id": "coalindia",
+    "timestamp": "2024-10-28T00:00:00Z",
+    "type": "ngo_investigation",
+    "source": "Climate investigation: Coal sector lobbying and pollution rules",
+    "snippet_text": "Investigation finds Indian coal producers lobbied to weaken pollution rules even while expanding production — raises concerns about environmental governance and underreported impacts.",
+    "provenance": "https://www.climatechangenews.com/2024/10/28/indian-coal-giants-pushed-for-lax-pollution-rules-while-ramping-up-production/"
+  },
+  {
+    "event_id": "coalindia_ev_2025_01_production",
+    "company_id": "coalindia",
+    "timestamp": "2025-01-31T00:00:00Z",
+    "type": "press",
+    "source": "Coal India production update",
+    "snippet_text": "Coal India produced 773.6 million tonnes in FY2024 showing production increases year on year (company press release and financials).",
+    "provenance": "https://www.coalindia.in/news-media/press-releases/"
+  },
+
+  {
+    "event_id":"honestco_ev_2024_06_report",
+    "company_id":"honestco",
+    "timestamp":"2024-06-20T09:00:00Z",
+    "type":"pdf",
+    "source":"HonestCo Sustainability Report (synthetic)",
+    "snippet_text":"HonestCo reports a 15% reduction in energy intensity in FY2024, corroborated by third-party energy audit and normalized units.",
+    "provenance":"data/raw/honestco/honestco_report.pdf"
+  },
+  {
+    "event_id":"honestco_ev_2025_02_thirdparty",
+    "company_id":"honestco",
+    "timestamp":"2025-02-10T10:00:00Z",
+    "type":"thirdparty",
+    "source":"Independent audit (synthetic)",
+    "snippet_text":"Third-party auditor confirms HonestCo's energy reduction claims for FY2024 with satellite cross-check.",
+    "provenance":"data/raw/honestco/independent_audit.txt"
+  },
+
+  {
+    "event_id":"greenwashco_ev_2024_05_report",
+    "company_id":"greenwashco",
+    "timestamp":"2024-05-31T00:00:00Z",
+    "type":"pdf",
+    "source":"GreenwashCo sustainability report (synthetic)",
+    "snippet_text":"GreenwashCo claims: \"We reduced CO2 emissions by 10% in 2024 vs 2020 baseline; 90% renewable energy in our plants.\"",
+    "provenance":"data/raw/greenwashco/greenwashco_report.pdf"
+  },
+  {
+    "event_id":"greenwashco_ev_2024_09_ngo",
+    "company_id":"greenwashco",
+    "timestamp":"2024-09-12T08:00:00Z",
+    "type":"ngo",
+    "source":"EcoTruth NGO satellite analysis (synthetic)",
+    "snippet_text":"Independent NGO 'EcoTruth' reports satellite-derived emissions 20% higher than GreenwashCo claimed levels for the same period.",
+    "provenance":"data/raw/greenwashco/ngo_ecotruth.txt"
+  },
+  {
+    "event_id":"greenwashco_ev_2024_11_satellite",
+    "company_id":"greenwashco",
+    "timestamp":"2024-11-03T07:00:00Z",
+    "type":"satellite",
+    "source":"Synthetic satellite measurement",
+    "snippet_text":"Satellite-based plume analysis indicates higher emissions near GreenwashCo plant, inconsistent with company's claimed reductions. Measured 1200 tonnes CO2e vs claimed 900 tonnes CO2e.",
+    "provenance":"data/raw/greenwashco/greenwashco_satellite.json"
+  }
+]
