@@ -1,0 +1,12 @@
+{
+  "company_id": "infosys",
+  "name": "Infosys Limited",
+  "sector": "IT Services",
+  "ticker": "INFY",
+  "demo_bucket": "high",
+  "dataset_version": "v1",
+  "files":[
+    {"source_id":"infosys_esg_report_2023-24.pdf","type":"pdf","filename":"data/raw/infosys/infosys_esg_report_2023-24.pdf","provenance":"https://www.infosys.com/sustainability/documents/infosys-esg-report-2023-24.pdf"},
+    {"source_id":"infosys_pr_2025_06_04","type":"press","filename":"data/raw/infosys/infosys_press_2025.html","provenance":"https://www.infosys.com/newsroom/press-releases.html"}
+  ]
+}

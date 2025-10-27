@@ -1,0 +1,15 @@
+{
+  "company_id": "tatapower",
+  "claim_text": "Tata Power announced plans to reach net-zero emissions by 2045, advancing its target by five years.",
+  "numeric_value": 2045.0,
+  "unit": null,
+  "metric": "net_zero_target",
+  "baseline": null,
+  "reporting_period": "2025-05-01",
+  "extracted_from": "tatapower_news_2025_05_01_s1",
+  "sources": [
+    "tatapower_press_2025_05_01"
+  ],
+  "confidence": 0.95,
+  "claim_id": "claim_tatapower_f6b04bda"
+}

@@ -1,0 +1,27 @@
+# NLP & embeddings
+spacy>=3.5.0
+sentence-transformers==2.2.2
+torch>=2.0.0
+
+langchain>=1.0.0
+transformers>=4.40.0
+# Utilities
+numpy
+pandas
+tqdm
+regex
+
+# Graph & persistence
+networkx
+python-dotenv
+
+# CLI / requests (optional helpers)
+# CLI / requests
+requests
+
+# Testing
+pytest
+
+#Extra
+python -m spacy download en_core_web_sm
+

@@ -1,0 +1,15 @@
+{
+  "company_id": "infosys",
+  "claim_text": "Infosys recorded a 12% reduction in scope 1 emissions in FY2023 compared to FY2020 baseline, driven by energy efficiency and renewable purchases.",
+  "numeric_value": 12.0,
+  "unit": "percent",
+  "metric": "scope1_emissions",
+  "baseline": null,
+  "reporting_period": "2024-05-31",
+  "extracted_from": "infosys_pdf_p3_s1",
+  "sources": [
+    "infosys_esg_report_2023-24.pdf"
+  ],
+  "confidence": 0.95,
+  "claim_id": "claim_infosys_d45c3805"
+}

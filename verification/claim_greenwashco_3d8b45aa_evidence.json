@@ -1,0 +1,89 @@
+{
+  "claim_id": "claim_greenwashco_3d8b45aa",
+  "company_id": "greenwashco",
+  "top_evidence": [
+    {
+      "snippet_id": "greenwashco_html_2025_05_18_s2",
+      "score": 1.0,
+      "label": "support",
+      "source_id": "greenwashco_website_2025_05_18",
+      "source_type": "html",
+      "snippet_text": "The company’s environmental disclosure page lacks scope 3 emissions data, raising transparency concerns."
+    },
+    {
+      "snippet_id": "honestco_html_2025_02_05_s2",
+      "score": 0.14680758605851962,
+      "label": "insufficient",
+      "source_id": "honestco_website_2025_02_05",
+      "source_type": "html",
+      "snippet_text": "The dashboard integrates supplier data and real-time lifecycle emissions."
+    },
+    {
+      "snippet_id": "tatapower_pdf_p3_s2",
+      "score": 0.14321557384682354,
+      "label": "insufficient",
+      "source_id": "tatapower_sustainability_report_2023-24.pdf",
+      "source_type": "pdf",
+      "snippet_text": "The company achieved a 25% reduction in scope 1 emissions compared to the FY2020 baseline through solar expansion and process optimization."
+    },
+    {
+      "snippet_id": "infosys_pdf_p3_s1",
+      "score": 0.0985135787891259,
+      "label": "insufficient",
+      "source_id": "infosys_esg_report_2023-24.pdf",
+      "source_type": "pdf",
+      "snippet_text": "Infosys recorded a 12% reduction in scope 1 emissions in FY2023 compared to FY2020 baseline, driven by energy efficiency and renewable purchases."
+    },
+    {
+      "snippet_id": "honestco_html_2025_02_05_s1",
+      "score": 0.08574226472559905,
+      "label": "insufficient",
+      "source_id": "honestco_website_2025_02_05",
+      "source_type": "html",
+      "snippet_text": "HonestCo announced a new transparency dashboard allowing customers to trace the sustainability footprint of each product."
+    },
+    {
+      "snippet_id": "coalindia_news_2025_03_12_s2",
+      "score": 0.08441107724349373,
+      "label": "insufficient",
+      "source_id": "coalindia_reuters_2025_03_12",
+      "source_type": "news",
+      "snippet_text": "Despite rising production, Coal India reaffirmed its commitment to environmental rehabilitation and community development."
+    },
+    {
+      "snippet_id": "coalindia_pdf_p3_s1",
+      "score": 0.07780354682351899,
+      "label": "insufficient",
+      "source_id": "coalindia_sustainability_report_2023-24.pdf",
+      "source_type": "pdf",
+      "snippet_text": "The company reduced particulate matter emissions by 15% through advanced dust suppression systems."
+    },
+    {
+      "snippet_id": "infosys_pdf_p4_s1",
+      "score": 0.048571441552002485,
+      "label": "insufficient",
+      "source_id": "infosys_esg_report_2023-24.pdf",
+      "source_type": "pdf",
+      "snippet_text": "The company achieved carbon neutrality across all its global operations in FY2022."
+    },
+    {
+      "snippet_id": "greenwashco_news_2025_07_02_s2",
+      "score": 0.04186206424281988,
+      "label": "insufficient",
+      "source_id": "greenwatch_news_2025_07_02",
+      "source_type": "news",
+      "snippet_text": "Analysts noted that GreenwashCo purchased renewable certificates instead of reducing actual emissions."
+    },
+    {
+      "snippet_id": "tatapower_news_2025_05_01_s1",
+      "score": 0.038272550955674306,
+      "label": "insufficient",
+      "source_id": "tatapower_press_2025_05_01",
+      "source_type": "press",
+      "snippet_text": "Tata Power announced plans to reach net-zero emissions by 2045, advancing its target by five years."
+    }
+  ],
+  "support_score": 1.0,
+  "contradict_score": 0.0,
+  "final_verdict": "supported"
+}

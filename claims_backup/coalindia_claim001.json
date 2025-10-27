@@ -1,0 +1,15 @@
+{
+  "company_id": "coalindia",
+  "claim_text": "The company reduced particulate matter emissions by 15% through advanced dust suppression systems.",
+  "numeric_value": 15.0,
+  "unit": null,
+  "metric": "air_emissions",
+  "baseline": null,
+  "reporting_period": "2024-06-10",
+  "extracted_from": "coalindia_pdf_p3_s1",
+  "sources": [
+    "coalindia_sustainability_report_2023-24.pdf"
+  ],
+  "confidence": 0.95,
+  "claim_id": "claim_coalindia_6b289929"
+}

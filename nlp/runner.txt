@@ -1,0 +1,19 @@
+EXTRACT
+python nlp/claim_extractor.py --snippets data/cleaned/snippets.jsonl --mappings mappings/metrics_map.json --out_dir claims/
+
+NORMALIZE claims
+python nlp/normalize_claims.py
+
+
+VERIFY
+python nlp/embed_matcher_tfidf.py --claims_dir claims/ --snippets data/cleaned/snippets.jsonl --out_dir verification/
+
+
+BUILD GRAPH
+python nlp/build_graph.py --claims_dir claims/ --verification_dir verification/ --snippets data/cleaned/snippets.jsonl --out_dir graph/
+
+QUICK SANITY
+python scripts/check_sample_claim.py
+
+GENERATE CLAIMS INDEX
+python scripts/generate_claims_index.py

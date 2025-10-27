@@ -1,0 +1,15 @@
+{
+  "company_id": "infosys",
+  "claim_text": "The company achieved carbon neutrality across all its global operations in FY2022.",
+  "numeric_value": 2022.0,
+  "unit": null,
+  "metric": "net_zero_target",
+  "baseline": null,
+  "reporting_period": "2024-05-31",
+  "extracted_from": "infosys_pdf_p4_s1",
+  "sources": [
+    "infosys_esg_report_2023-24.pdf"
+  ],
+  "confidence": 0.25,
+  "claim_id": "claim_infosys_17a27df1"
+}

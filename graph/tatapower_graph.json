@@ -1,0 +1,240 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "tatapower",
+      "type": "company",
+      "id": "Company:tatapower"
+    },
+    {
+      "label": "The company achieved a 25% reduction in scope 1 emissions compared to the FY2020 baseline through solar expansion and pr",
+      "type": "claim",
+      "metric": "scope1_emissions",
+      "id": "Claim:claim_tatapower_739e418c"
+    },
+    {
+      "label": "The company achieved a 25% reduction in scope 1 emissions compared to the FY2020 baseline through solar expansion and pr",
+      "type": "snippet",
+      "source_id": "tatapower_sustainability_report_2023-24.pdf",
+      "id": "Snippet:tatapower_pdf_p3_s2"
+    },
+    {
+      "label": "Infosys recorded a 12% reduction in scope 1 emissions in FY2023 compared to FY2020 baseline, driven by energy efficiency",
+      "type": "snippet",
+      "source_id": "infosys_esg_report_2023-24.pdf",
+      "id": "Snippet:infosys_pdf_p3_s1"
+    },
+    {
+      "label": "The Honest Company achieved a 90% reduction in single-use plastic packaging across its product lines, verified by third-",
+      "type": "snippet",
+      "source_id": "earthwatch_honestco_audit_2024.pdf",
+      "id": "Snippet:honestco_pdf_p2_s3"
+    },
+    {
+      "label": "The company’s environmental disclosure page lacks scope 3 emissions data, raising transparency concerns.",
+      "type": "snippet",
+      "source_id": "greenwashco_website_2025_05_18",
+      "id": "Snippet:greenwashco_html_2025_05_18_s2"
+    },
+    {
+      "label": "The company achieved carbon neutrality across all its global operations in FY2022.",
+      "type": "snippet",
+      "source_id": "infosys_esg_report_2023-24.pdf",
+      "id": "Snippet:infosys_pdf_p4_s1"
+    },
+    {
+      "label": "Coal India planted over 10 million saplings in FY2024 as part of its land reclamation and green cover expansion efforts.",
+      "type": "snippet",
+      "source_id": "coalindia_sustainability_report_2023-24.pdf",
+      "id": "Snippet:coalindia_pdf_p2_s1"
+    },
+    {
+      "label": "The company reduced particulate matter emissions by 15% through advanced dust suppression systems.",
+      "type": "snippet",
+      "source_id": "coalindia_sustainability_report_2023-24.pdf",
+      "id": "Snippet:coalindia_pdf_p3_s1"
+    },
+    {
+      "label": "The dashboard integrates supplier data and real-time lifecycle emissions.",
+      "type": "snippet",
+      "source_id": "honestco_website_2025_02_05",
+      "id": "Snippet:honestco_html_2025_02_05_s2"
+    },
+    {
+      "label": "Analysts noted that GreenwashCo purchased renewable certificates instead of reducing actual emissions.",
+      "type": "snippet",
+      "source_id": "greenwatch_news_2025_07_02",
+      "id": "Snippet:greenwashco_news_2025_07_02_s2"
+    },
+    {
+      "label": "Tata Power announced plans to reach net-zero emissions by 2045, advancing its target by five years.",
+      "type": "snippet",
+      "source_id": "tatapower_press_2025_05_01",
+      "id": "Snippet:tatapower_news_2025_05_01_s1"
+    },
+    {
+      "label": "Tata Power announced plans to reach net-zero emissions by 2045, advancing its target by five years.",
+      "type": "claim",
+      "metric": "net_zero_target",
+      "id": "Claim:claim_tatapower_f6b04bda"
+    },
+    {
+      "label": "Over 1.2 million people benefited from Tata Power’s CSR programs in education, livelihood, and skill development during ",
+      "type": "snippet",
+      "source_id": "tatapower_sustainability_report_2023-24.pdf",
+      "id": "Snippet:tatapower_pdf_p5_s1"
+    },
+    {
+      "label": "Tata Power increased its renewable generation capacity to 5.5 GW in FY2024, representing 38% of its total portfolio.",
+      "type": "snippet",
+      "source_id": "tatapower_sustainability_report_2023-24.pdf",
+      "id": "Snippet:tatapower_pdf_p2_s1"
+    },
+    {
+      "label": "Coal India announced plans to invest ₹20,000 crore in clean coal technologies and carbon capture initiatives by 2030.",
+      "type": "snippet",
+      "source_id": "coalindia_reuters_2025_03_12",
+      "id": "Snippet:coalindia_news_2025_03_12_s1"
+    },
+    {
+      "label": "HonestCo announced a new transparency dashboard allowing customers to trace the sustainability footprint of each product",
+      "type": "snippet",
+      "source_id": "honestco_website_2025_02_05",
+      "id": "Snippet:honestco_html_2025_02_05_s1"
+    }
+  ],
+  "links": [
+    {
+      "relation": "claims_from",
+      "source": "Company:tatapower",
+      "target": "Claim:claim_tatapower_739e418c"
+    },
+    {
+      "relation": "claims_from",
+      "source": "Company:tatapower",
+      "target": "Claim:claim_tatapower_f6b04bda"
+    },
+    {
+      "relation": "support",
+      "score": 1.0,
+      "source": "Claim:claim_tatapower_739e418c",
+      "target": "Snippet:tatapower_pdf_p3_s2"
+    },
+    {
+      "relation": "insufficient",
+      "score": 0.37100365877035985,
+      "source": "Claim:claim_tatapower_739e418c",
+      "target": "Snippet:infosys_pdf_p3_s1"
+    },
+    {
+      "relation": "insufficient",
+      "score": 0.14671068492917427,
+      "source": "Claim:claim_tatapower_739e418c",
+      "target": "Snippet:honestco_pdf_p2_s3"
+    },
+    {
+      "relation": "insufficient",
+      "score": 0.1432155738468236,
+      "source": "Claim:claim_tatapower_739e418c",
+      "target": "Snippet:greenwashco_html_2025_05_18_s2"
+    },
+    {
+      "relation": "insufficient",
+      "score": 0.13811184275685745,
+      "source": "Claim:claim_tatapower_739e418c",
+      "target": "Snippet:infosys_pdf_p4_s1"
+    },
+    {
+      "relation": "insufficient",
+      "score": 0.07424080586617496,
+      "source": "Claim:claim_tatapower_739e418c",
+      "target": "Snippet:coalindia_pdf_p2_s1"
+    },
+    {
+      "relation": "insufficient",
+      "score": 0.0734553734226255,
+      "source": "Claim:claim_tatapower_739e418c",
+      "target": "Snippet:coalindia_pdf_p3_s1"
+    },
+    {
+      "relation": "insufficient",
+      "score": 0.043563094144009204,
+      "source": "Claim:claim_tatapower_739e418c",
+      "target": "Snippet:honestco_html_2025_02_05_s2"
+    },
+    {
+      "relation": "insufficient",
+      "score": 0.0395225370402875,
+      "source": "Claim:claim_tatapower_739e418c",
+      "target": "Snippet:greenwashco_news_2025_07_02_s2"
+    },
+    {
+      "relation": "insufficient",
+      "score": 0.036133629340348944,
+      "source": "Claim:claim_tatapower_739e418c",
+      "target": "Snippet:tatapower_news_2025_05_01_s1"
+    },
+    {
+      "relation": "support",
+      "score": 1.0000000000000004,
+      "source": "Claim:claim_tatapower_f6b04bda",
+      "target": "Snippet:tatapower_news_2025_05_01_s1"
+    },
+    {
+      "relation": "insufficient",
+      "score": 0.12798740392300426,
+      "source": "Claim:claim_tatapower_f6b04bda",
+      "target": "Snippet:tatapower_pdf_p5_s1"
+    },
+    {
+      "relation": "insufficient",
+      "score": 0.125280311168231,
+      "source": "Claim:claim_tatapower_f6b04bda",
+      "target": "Snippet:tatapower_pdf_p2_s1"
+    },
+    {
+      "relation": "insufficient",
+      "score": 0.12393030271936742,
+      "source": "Claim:claim_tatapower_f6b04bda",
+      "target": "Snippet:coalindia_news_2025_03_12_s1"
+    },
+    {
+      "relation": "insufficient",
+      "score": 0.06518100856000444,
+      "source": "Claim:claim_tatapower_f6b04bda",
+      "target": "Snippet:honestco_html_2025_02_05_s1"
+    },
+    {
+      "relation": "insufficient",
+      "score": 0.042801979886321666,
+      "source": "Claim:claim_tatapower_f6b04bda",
+      "target": "Snippet:honestco_html_2025_02_05_s2"
+    },
+    {
+      "relation": "insufficient",
+      "score": 0.0388320175298527,
+      "source": "Claim:claim_tatapower_f6b04bda",
+      "target": "Snippet:greenwashco_news_2025_07_02_s2"
+    },
+    {
+      "relation": "insufficient",
+      "score": 0.038272550955674306,
+      "source": "Claim:claim_tatapower_f6b04bda",
+      "target": "Snippet:greenwashco_html_2025_05_18_s2"
+    },
+    {
+      "relation": "insufficient",
+      "score": 0.03821232860085512,
+      "source": "Claim:claim_tatapower_f6b04bda",
+      "target": "Snippet:coalindia_pdf_p3_s1"
+    },
+    {
+      "relation": "insufficient",
+      "score": 0.03613362934034894,
+      "source": "Claim:claim_tatapower_f6b04bda",
+      "target": "Snippet:tatapower_pdf_p3_s2"
+    }
+  ]
+}

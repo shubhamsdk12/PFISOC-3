@@ -1,0 +1,49 @@
+# Virtual Environment
+esg/
+.venv/
+venv/
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# Model files / large binaries
+*.h5
+*.hdf5
+*.pkl
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.joblib
+
+# Datasets / downloads
+data/
+datasets/
+downloads/
+models/
+checkpoints/
+*.zip
+*.tar
+*.tar.gz
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

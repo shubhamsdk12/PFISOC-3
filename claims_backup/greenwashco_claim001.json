@@ -1,0 +1,15 @@
+{
+  "company_id": "greenwashco",
+  "claim_text": "The company’s environmental disclosure page lacks scope 3 emissions data, raising transparency concerns.",
+  "numeric_value": 3.0,
+  "unit": null,
+  "metric": "scope3_emissions",
+  "baseline": null,
+  "reporting_period": "2025-05-18",
+  "extracted_from": "greenwashco_html_2025_05_18_s2",
+  "sources": [
+    "greenwashco_website_2025_05_18"
+  ],
+  "confidence": 0.6,
+  "claim_id": "claim_greenwashco_3d8b45aa"
+}
