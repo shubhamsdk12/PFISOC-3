@@ -1,0 +1,74 @@
+[
+  {
+    "claim_id": "claim_coalindia_6b289929",
+    "company_id": "coalindia",
+    "metric": "air_emissions",
+    "numeric_value": 15.0,
+    "unit": "percent",
+    "confidence": 0.95,
+    "final_verdict": "supported",
+    "support_score": 0.9999999999999998,
+    "contradict_score": 0.0,
+    "top_evidence_count": 10
+  },
+  {
+    "claim_id": "claim_greenwashco_3d8b45aa",
+    "company_id": "greenwashco",
+    "metric": "scope3_emissions",
+    "numeric_value": 3.0,
+    "unit": null,
+    "confidence": 0.6,
+    "final_verdict": "supported",
+    "support_score": 1.0,
+    "contradict_score": 0.0,
+    "top_evidence_count": 10
+  },
+  {
+    "claim_id": "claim_infosys_d45c3805",
+    "company_id": "infosys",
+    "metric": "scope1_emissions",
+    "numeric_value": 12.0,
+    "unit": "percent",
+    "confidence": 0.95,
+    "final_verdict": "supported",
+    "support_score": 1.0,
+    "contradict_score": 0.0,
+    "top_evidence_count": 10
+  },
+  {
+    "claim_id": "claim_infosys_17a27df1",
+    "company_id": "infosys",
+    "metric": "net_zero_target",
+    "numeric_value": 2022.0,
+    "unit": null,
+    "confidence": 0.25,
+    "final_verdict": "supported",
+    "support_score": 1.0000000000000002,
+    "contradict_score": 0.0,
+    "top_evidence_count": 10
+  },
+  {
+    "claim_id": "claim_tatapower_739e418c",
+    "company_id": "tatapower",
+    "metric": "scope1_emissions",
+    "numeric_value": 25.0,
+    "unit": "percent",
+    "confidence": 0.95,
+    "final_verdict": "supported",
+    "support_score": 1.0,
+    "contradict_score": 0.0,
+    "top_evidence_count": 10
+  },
+  {
+    "claim_id": "claim_tatapower_f6b04bda",
+    "company_id": "tatapower",
+    "metric": "net_zero_target",
+    "numeric_value": 2045.0,
+    "unit": null,
+    "confidence": 0.95,
+    "final_verdict": "supported",
+    "support_score": 1.0000000000000004,
+    "contradict_score": 0.0,
+    "top_evidence_count": 10
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "company_id": "tatapower",
+  "claim_text": "The company achieved a 25% reduction in scope 1 emissions compared to the FY2020 baseline through solar expansion and process optimization.",
+  "numeric_value": 25.0,
+  "unit": null,
+  "metric": "scope1_emissions",
+  "baseline": null,
+  "reporting_period": "2024-06-15",
+  "extracted_from": "tatapower_pdf_p3_s2",
+  "sources": [
+    "tatapower_sustainability_report_2023-24.pdf"
+  ],
+  "confidence": 0.95,
+  "claim_id": "claim_tatapower_739e418c"
+}

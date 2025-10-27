@@ -1,0 +1,22 @@
+{
+  "company_id": "greenwashco",
+  "name": "GreenwashCo Industries",
+  "sector": "Manufacturing & Chemicals",
+  "ticker": "GWC",
+  "demo_bucket": "low",
+  "dataset_version": "v1",
+  "files": [
+    {
+      "source_id": "greenwashco_website_2025_05_18",
+      "type": "html",
+      "filename": "data/raw/greenwashco/greenwashco_website_2025_05_18.html",
+      "provenance": "https://www.greenwashco.com/sustainability"
+    },
+    {
+      "source_id": "greenwatch_news_2025_07_02",
+      "type": "news",
+      "filename": "data/raw/greenwashco/greenwatch_news_2025_07_02.html",
+      "provenance": "https://www.greenwatch.org/reports/greenwashco-claims-2025-07-02"
+    }
+  ]
+}

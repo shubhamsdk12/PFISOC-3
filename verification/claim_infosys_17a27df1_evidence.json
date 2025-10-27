@@ -1,0 +1,89 @@
+{
+  "claim_id": "claim_infosys_17a27df1",
+  "company_id": "infosys",
+  "top_evidence": [
+    {
+      "snippet_id": "infosys_pdf_p4_s1",
+      "score": 1.0000000000000002,
+      "label": "support",
+      "source_id": "infosys_esg_report_2023-24.pdf",
+      "source_type": "pdf",
+      "snippet_text": "The company achieved carbon neutrality across all its global operations in FY2022."
+    },
+    {
+      "snippet_id": "greenwashco_news_2025_07_02_s1",
+      "score": 0.22795083733506605,
+      "label": "insufficient",
+      "source_id": "greenwatch_news_2025_07_02",
+      "source_type": "news",
+      "snippet_text": "NGO watchdog GreenWatch accused GreenwashCo of overstating its carbon neutrality claims."
+    },
+    {
+      "snippet_id": "greenwashco_html_2025_05_18_s1",
+      "score": 0.16734538390379428,
+      "label": "insufficient",
+      "source_id": "greenwashco_website_2025_05_18",
+      "source_type": "html",
+      "snippet_text": "GreenwashCo claims all its operations are powered by renewable energy, though the company has not published independent verification reports."
+    },
+    {
+      "snippet_id": "tatapower_pdf_p3_s2",
+      "score": 0.13811184275685742,
+      "label": "insufficient",
+      "source_id": "tatapower_sustainability_report_2023-24.pdf",
+      "source_type": "pdf",
+      "snippet_text": "The company achieved a 25% reduction in scope 1 emissions compared to the FY2020 baseline through solar expansion and process optimization."
+    },
+    {
+      "snippet_id": "honestco_pdf_p2_s3",
+      "score": 0.12341038510126431,
+      "label": "insufficient",
+      "source_id": "earthwatch_honestco_audit_2024.pdf",
+      "source_type": "ngo",
+      "snippet_text": "The Honest Company achieved a 90% reduction in single-use plastic packaging across its product lines, verified by third-party auditors."
+    },
+    {
+      "snippet_id": "infosys_pr_2025_06_04_s1",
+      "score": 0.09199946704227385,
+      "label": "insufficient",
+      "source_id": "infosys_pr_2025_06_04",
+      "source_type": "press",
+      "snippet_text": "Infosys outlines a bolder ESG Vision 2030; aspires to become climate positive by 2030 and expands global skilling and livelihood commitments."
+    },
+    {
+      "snippet_id": "coalindia_news_2025_03_12_s1",
+      "score": 0.07970992398471144,
+      "label": "insufficient",
+      "source_id": "coalindia_reuters_2025_03_12",
+      "source_type": "news",
+      "snippet_text": "Coal India announced plans to invest ₹20,000 crore in clean coal technologies and carbon capture initiatives by 2030."
+    },
+    {
+      "snippet_id": "tatapower_news_2025_05_01_s2",
+      "score": 0.05031848113715393,
+      "label": "insufficient",
+      "source_id": "tatapower_press_2025_05_01",
+      "source_type": "press",
+      "snippet_text": "The company will invest ₹75,000 crore over the next decade in renewable infrastructure and smart grids."
+    },
+    {
+      "snippet_id": "greenwashco_html_2025_05_18_s2",
+      "score": 0.04857144155200248,
+      "label": "insufficient",
+      "source_id": "greenwashco_website_2025_05_18",
+      "source_type": "html",
+      "snippet_text": "The company’s environmental disclosure page lacks scope 3 emissions data, raising transparency concerns."
+    },
+    {
+      "snippet_id": "coalindia_pdf_p3_s1",
+      "score": 0.04849501375938913,
+      "label": "insufficient",
+      "source_id": "coalindia_sustainability_report_2023-24.pdf",
+      "source_type": "pdf",
+      "snippet_text": "The company reduced particulate matter emissions by 15% through advanced dust suppression systems."
+    }
+  ],
+  "support_score": 1.0000000000000002,
+  "contradict_score": 0.0,
+  "final_verdict": "supported"
+}
