@@ -1,0 +1,22 @@
+{
+  "company_id": "honestco",
+  "name": "The Honest Company, Inc.",
+  "sector": "Consumer Goods",
+  "ticker": "HNST",
+  "demo_bucket": "mid",
+  "dataset_version": "v1",
+  "files": [
+    {
+      "source_id": "earthwatch_honestco_audit_2024.pdf",
+      "type": "ngo",
+      "filename": "data/raw/honestco/earthwatch_honestco_audit_2024.pdf",
+      "provenance": "https://earthwatch.org/reports/honestco_audit_2024.pdf"
+    },
+    {
+      "source_id": "honestco_website_2025_02_05",
+      "type": "html",
+      "filename": "data/raw/honestco/honestco_website_2025_02_05.html",
+      "provenance": "https://www.honestco.com/sustainability"
+    }
+  ]
+}
