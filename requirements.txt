@@ -3,6 +3,8 @@ spacy>=3.5.0
 sentence-transformers==2.2.2
 torch>=2.0.0
 
+langchain>=1.0.0
+transformers>=4.40.0
 # Utilities
 numpy
 pandas
@@ -14,6 +16,7 @@ networkx
 python-dotenv
 
 # CLI / requests (optional helpers)
+# CLI / requests
 requests
 
 # Testing
